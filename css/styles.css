@@ -736,7 +736,7 @@ transition: opacity var(--transition), visibility var(--transition);
 .modal-close-icon{
 transition: fill var(--transition);
 }
-.modal-close-icon:hover, .modal-close-icon:focus{
+.modal-close-btn:hover .modal-close-icon, .modal-close-btn:focus .modal-close-icon{
   fill: var(--accent-color);
 
 }
